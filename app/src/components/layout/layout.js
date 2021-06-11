@@ -10,7 +10,7 @@ import { animateOnScroll } from '../../utils/isVisible'
 
 const variants = {
   initial: { y: 100, opacity: 0 },
-  enter: { y: 0, opacity: 1, transition: { duration: 0.5 } },
+  enter: { y: 0, opacity: 5, transition: { duration: 0.5 } },
 }
 
 const StyledContainer = styled.div`
