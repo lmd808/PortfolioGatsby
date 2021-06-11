@@ -22,7 +22,7 @@ const Contact = ({ className, location }) => {
       />
 
       <Hero
-        heroImg={withPrefix('/images/cover1.png')}
+        heroImg={withPrefix('cover1.png')}
         title={title}
       />
 
