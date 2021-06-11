@@ -108,7 +108,7 @@ module.exports = {
     email: "laura@lauraditommaso.dev"
   },
   siteUrl: 'https://lauraditommaso.dev',
-  pathPrefix: '/gatsby-starter-cv', // Note: it must *not* have a trailing slash.
+  pathPrefix: '/app', // Note: it must *not* have a trailing slash.
   siteCover: '/images/cover1.png',
   googleAnalyticsId: 'G-VPVB30J6RX',
   background_color: '#ffffff',
