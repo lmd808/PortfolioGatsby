@@ -3,9 +3,8 @@ module.exports = {
   siteDescription: `Hi, I'm Laura. Come see what I can do!`,
   keyWords: ['gatsbyjs', 'react', 'web developer'],
   authorName: 'Laura DiTommaso',
-  twitterUsername: 'none',
   githubUsername: 'lmd808',
-  authorAvatar: '/images/me.jpeg',
+  authorAvatar: '/images/me.png',
   authorDescription: `Full Stack Developer, and I'm passionate about what I do. I've been writing code since I was 14 years old. Now it is both a hobby and career. More than anything, I love creating work that makes people smile.  
    <br>I currently work as a Lead Full Stack Web Applications developer and mainly work with <strong>Javascript, NodeJS, SQL, MongoDB, and  React.</strong>`,
   skills: [
@@ -77,47 +76,41 @@ module.exports = {
   ],
   portifolio: [
     {
-      image: "/images/gatsby-starter-cv.png",
+      image: "/images/Projects/taj.png",
       description: "Taj Vending Services",
       url: "https://www.tajvending.com/"
     },
     {
-      image: "/images/awesome-grid.png",
+      image: "/images/Projects/foe.png",
       description: "Festival of the Elves",
       url: "https://www.festivaloftheelves.com/"
     },
     {
-      image: "/images/awesome-grid.png",
+      image: "/images//Projects/brunswick.png",
       description: "Brunswick Regional Dental Group",
       url: "https://www.brunswickregionaldentalgroup.com/"
     },
     {
-      image: "/images/awesome-grid.png",
+      image: "/images/Projects/iwg.png",
       description: "IWG",
       url: "https://www.iwgplc.com/"
     },
     {
-      image: "/images/awesome-grid.png",
+      image: "/images/Projects/come.jpeg",
       description: "Barkable: Coming Soon",
       url: null
-    },
-    {
-      image: "/images/awesome-grid.png",
-      description: "EcoHabit",
-      url: "https://github.com/lmd808/EcoHabit"
-    },
+    }
     /* more portifolio items here */
   ],
   social: {
-    twitter: "https://twitter.com/_franciscodf",
     linkedin: "https://www.linkedin.com/in/laura-ditommaso/",
     github: "https://github.com/lmd808",
     email: "laura@lauraditommaso.dev"
   },
   siteUrl: 'https://lauraditommaso.dev',
   pathPrefix: '/gatsby-starter-cv', // Note: it must *not* have a trailing slash.
-  siteCover: '/images/cover.png',
-  googleAnalyticsId: 'UA-000000000-1',
+  siteCover: '/images/cover1.png',
+  googleAnalyticsId: 'G-VPVB30J6RX',
   background_color: '#ffffff',
   theme_color: '#25303B',
   fontColor: "#000000cc",
@@ -132,6 +125,10 @@ module.exports = {
     {
       label: 'Portifolio',
       url: '/portifolio',
+    }, 
+    {
+      label: 'Contact',
+      url: '/contact'
     }
   ]
 }

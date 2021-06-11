@@ -14,7 +14,7 @@ const HeaderWrapper = styled.header`
   display: block;
   width: 100%;
   z-index: 1000;
-  background-color: ${({ theme }) => theme.colors.primary};
+  background-color: ${({ theme }) => theme.colors.secondary};
 `
 
 const HeaderNav = styled.nav`
@@ -28,7 +28,7 @@ const HeaderNav = styled.nav`
   justify-content: space-between;
   overflow-x: auto;
   overflow-y: hidden;
-  background-color: ${({ theme }) => theme.colors.primary};
+  background-color: ${({ theme }) => theme.colors.secondary};
   a:hover {
     filter: brightness(0.6);
   }
