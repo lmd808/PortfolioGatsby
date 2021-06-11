@@ -4,7 +4,7 @@ module.exports = {
   keyWords: ['gatsbyjs', 'react', 'web developer'],
   authorName: 'Laura DiTommaso',
   githubUsername: 'lmd808',
-  authorAvatar: '/images/me.png',
+  authorAvatar: '/me.png',
   authorDescription: `Full Stack Developer, and I'm passionate about what I do. I've been writing code since I was 14 years old. Now it is both a hobby and career. More than anything, I love creating work that makes people smile.  
    <br>I currently work as a Lead Full Stack Web Applications developer and mainly work with <strong>Javascript, NodeJS, SQL, MongoDB, and  React.</strong>`,
   skills: [
@@ -76,27 +76,27 @@ module.exports = {
   ],
   portifolio: [
     {
-      image: "/images/Projects/taj.png",
+      image: "/Projects/taj.png",
       description: "Taj Vending Services",
       url: "https://www.tajvending.com/"
     },
     {
-      image: "/images/Projects/foe.png",
+      image: "/Projects/foe.png",
       description: "Festival of the Elves",
       url: "https://www.festivaloftheelves.com/"
     },
     {
-      image: "/images//Projects/brunswick.png",
+      image: "/Projects/brunswick.png",
       description: "Brunswick Regional Dental Group",
       url: "https://www.brunswickregionaldentalgroup.com/"
     },
     {
-      image: "/images/Projects/iwg.png",
+      image: "/Projects/iwg.png",
       description: "IWG",
       url: "https://www.iwgplc.com/"
     },
     {
-      image: "/images/Projects/come.jpeg",
+      image: "images/Projects/come.jpeg",
       description: "Barkable: Coming Soon",
       url: null
     }
@@ -109,7 +109,7 @@ module.exports = {
   },
   siteUrl: 'https://lauraditommaso.dev',
   pathPrefix: '/app', // Note: it must *not* have a trailing slash.
-  siteCover: '/images/cover1.png',
+  siteCover: 'cover1.png',
   googleAnalyticsId: 'G-VPVB30J6RX',
   background_color: '#ffffff',
   theme_color: '#25303B',
