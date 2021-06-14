@@ -47,7 +47,7 @@ module.exports = {
     {
       company: "Phantom Digital",
       begin: {
-        month: 'oct',
+        month: 'Oct',
         year: '2020'
       },
       duration: null,
@@ -55,7 +55,7 @@ module.exports = {
       description: "I lead a strong team of developers. I'm responsible for the development and execution of client's sites. I stress communication and innovation. Always making sure the client is content."
   
     },  {
-      company: "Mutual Screw and Supply",
+      company: "MS&S",
       begin: {
         month: 'May',
         year: '2016'
@@ -116,7 +116,7 @@ module.exports = {
   fontColor: "#000000cc",
   enableDarkmode: false, // If true, enables dark mode switch
   display: 'minimal-ui',
-  icon: 'src/assets/gatsby-icon.png',
+  icon: 'src/assets/icon-32x32.png',
   headerLinks: [
     {
       label: 'Home',

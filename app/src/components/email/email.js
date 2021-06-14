@@ -4,6 +4,21 @@ import { Container, Row, Col } from 'react-awesome-styled-grid'
 import './animation.css'
 
 
+const TextInput = styled.input `
+    width: 100%;
+    margin-bottom: 1rem;
+    margin-top: .3rem;
+    margin-left: 0px; 
+`
+const TextArea = styled.textarea `
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    margin-top: .3rem;
+    margin-left: 0px; 
+`
+ 
+
 
 function encode(data) {
   return Object.keys(data)
@@ -49,10 +64,10 @@ function  Email () {
             data-netlify-honeypot="bot-field"
             onSubmit={handleSubmit}>
             {/* The `form-name` hidden field is required to support form submissions without JavaScript */}
-            <input type="hidden" name="form-name" value="contact" />
+            <input type="hidden" name="form-name" value="contact" aria-label="hidden"/>
             <p hidden>
             <label>
-                Don’t fill this out: <input name="bot-field" onChange={handleChange} />
+                Don’t fill this out: <input name="bot-field" onChange={handleChange} aria-label="hidden"/>
             </label>
             </p>
     
@@ -78,18 +93,3 @@ function  Email () {
 export default Email;
 
 
-
-const TextInput = styled.input `
-    width: 100%;
-    margin-bottom: 1rem;
-    margin-top: .3rem;
-    margin-left: 0px; 
-`
-const TextArea = styled.textarea `
-    width: 100%;
-    padding: 1rem;
-    margin-bottom: 1rem;
-    margin-top: .3rem;
-    margin-left: 0px; 
-`
- 

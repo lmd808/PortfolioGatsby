@@ -1,5 +1,5 @@
 import React from 'react'
-import styled, { css } from 'styled-components'
+import styled from 'styled-components'
 import { Container, Row, Col } from 'react-awesome-styled-grid'
 import siteConfig from '../../data/siteConfig'
 import { withPrefix } from "gatsby"

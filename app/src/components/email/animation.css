@@ -1,6 +1,6 @@
 :root {
     --clr-neon: hsl(317 100% 54%);
-    --clr-bg: hsl(323 21% 16%);
+    --clr-bg: hsl(323 55% 25%);
   }
   
   *,
@@ -13,6 +13,7 @@
     font-size: 1.5rem;
     width: 50%;
     text-align: center;
+    background-color: Transparent;
     display: block;
     cursor: pointer;
     text-decoration: none;
