@@ -74,7 +74,7 @@ module.exports = {
       occupation: "Data Analyst",
       description: "Lobbied on behalf of multi-billion dollar organizations on Capitol Hill. Used data analysis and research methods to prepare 30+ page weekly briefs. Cultivated abilities to prepare and communicate important statistical information"    }, 
   ],
-  portifolio: [
+  portfolio: [
     {
       image: "/Projects/taj.png",
       description: "Taj Vending Services",
@@ -100,7 +100,7 @@ module.exports = {
       description: "Barkable: Coming Soon",
       url: null
     }
-    /* more portifolio items here */
+    /* more portfolio items here */
   ],
   social: {
     linkedin: "https://www.linkedin.com/in/laura-ditommaso/",
@@ -123,8 +123,12 @@ module.exports = {
       url: '/',
     },
     {
-      label: 'Portifolio',
-      url: '/portifolio',
+      label: 'Resume',
+      url: 'resume'
+    },
+    {
+      label: 'Portfolio',
+      url: '/portfolio',
     }, 
     {
       label: 'Contact',

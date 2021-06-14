@@ -4,7 +4,7 @@ import { config } from 'react-awesome-styled-grid'
 import siteConfig from '../../../data/siteConfig'
 
 const Timeline = ({ className }) => (
-  <div className={className}>
+  <div id='resume' className={className}>
     <h1>Experience</h1>
     {siteConfig.jobs && siteConfig.jobs.map(job => (
       <article 

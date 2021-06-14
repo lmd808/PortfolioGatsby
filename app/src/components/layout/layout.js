@@ -10,7 +10,7 @@ import { animateOnScroll } from '../../utils/isVisible'
 
 const variants = {
   initial: { y: 100, opacity: 0 },
-  enter: { y: 0, opacity: 5, transition: { duration: 0.5 } },
+  enter: { y: 0, opacity: 1, transition: { duration: 0.5 } },
 }
 
 const StyledContainer = styled.div`
@@ -23,6 +23,7 @@ const Layout = ({ children, location }) => {
   useEffect(() => {
     animateOnScroll()
   }, [])
+  
   return (
   <ThemeProvider theme={themes[theme || 'light']}>
     <ResetCSS />
@@ -44,7 +45,7 @@ const Layout = ({ children, location }) => {
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
-  location: PropTypes.string.isRequired,
+  location: PropTypes.object.isRequired,
 }
 
 

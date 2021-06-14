@@ -6,7 +6,7 @@ import { withPrefix } from "gatsby"
 import loadable from '@loadable/component'
 import Hero from '../components/hero'
 import SEO from '../components/SEO'
-import Email from '../components/email'
+import EmailLogic from '../components/emailLogic'
 import Wrapper from '../components/wrapper'
 
 const Layout = loadable(() => import('../components/layout'))
@@ -30,7 +30,7 @@ const Contact = ({ className, location }) => {
         <Container className="page-content" fluid>
             <Row>
             <Col>
-                <Email/>
+                <EmailLogic/>
             </Col>
             
             </Row>   
