@@ -96,7 +96,7 @@ module.exports = {
       url: "https://www.iwgplc.com/"
     },
     {
-      image: "images/Projects/come.jpeg",
+      image: "/Projects/come.jpeg",
       description: "Barkable: Coming Soon",
       url: null
     }
