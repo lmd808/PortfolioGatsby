@@ -76,7 +76,7 @@ module.exports = {
   ],
   portfolio: [
     {
-      image: "/taj.png",
+      image: "./images/Projects/taj.png",
       description: "Taj Vending Services",
       url: "https://www.tajvending.com/"
     },
