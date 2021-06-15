@@ -76,22 +76,22 @@ module.exports = {
   ],
   portfolio: [
     {
-      image: "./images/Projects/taj.png",
+      image: "/taj.png",
       description: "Taj Vending Services",
       url: "https://www.tajvending.com/"
     },
     {
-      image: "./foe.png",
+      image: "/foe.png",
       description: "Festival of the Elves",
       url: "https://www.festivaloftheelves.com/"
     },
     {
-      image: "./Projects/brunswick.png",
+      image: "/brunswick.png",
       description: "Brunswick Regional Dental Group",
       url: "https://www.brunswickregionaldentalgroup.com/"
     },
     {
-      image: "../assets/Projects/iwg.png",
+      image: "/iwg.png",
       description: "IWG",
       url: "https://www.iwgplc.com/"
     },
