@@ -81,17 +81,17 @@ module.exports = {
       url: "https://www.tajvending.com/"
     },
     {
-      image: "/foe.png",
+      image: "./foe.png",
       description: "Festival of the Elves",
       url: "https://www.festivaloftheelves.com/"
     },
     {
-      image: "/brunswick.png",
+      image: "./Projects/brunswick.png",
       description: "Brunswick Regional Dental Group",
       url: "https://www.brunswickregionaldentalgroup.com/"
     },
     {
-      image: "/iwg.png",
+      image: "../assets/Projects/iwg.png",
       description: "IWG",
       url: "https://www.iwgplc.com/"
     },
