@@ -65,8 +65,8 @@ function  EmailLogic () {
       <Row>
           <Col>
               <h2>Let's Connect!</h2>
-              <form name="contact"
-              method="post"
+              <form name="DevContact"
+              method="Post"
               action="/thanks/"
               data-netlify="true"
               data-netlify-honeypot="bot-field"
