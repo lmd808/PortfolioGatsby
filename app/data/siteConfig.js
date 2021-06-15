@@ -76,27 +76,27 @@ module.exports = {
   ],
   portfolio: [
     {
-      image: "/Projects/taj.png",
+      image: "/taj.png",
       description: "Taj Vending Services",
       url: "https://www.tajvending.com/"
     },
     {
-      image: "/Projects/foe.png",
+      image: "/foe.png",
       description: "Festival of the Elves",
       url: "https://www.festivaloftheelves.com/"
     },
     {
-      image: "/Projects/brunswick.png",
+      image: "/brunswick.png",
       description: "Brunswick Regional Dental Group",
       url: "https://www.brunswickregionaldentalgroup.com/"
     },
     {
-      image: "/Projects/iwg.png",
+      image: "/iwg.png",
       description: "IWG",
       url: "https://www.iwgplc.com/"
     },
     {
-      image: "/Projects/come.jpeg",
+      image: "/come.jpeg",
       description: "Barkable: Coming Soon",
       url: null
     }
@@ -124,7 +124,7 @@ module.exports = {
     },
     {
       label: 'Resume',
-      url: 'resume'
+      url: '/resume'
     },
     {
       label: 'Portfolio',
