@@ -47,6 +47,7 @@ function  EmailLogic () {
   const handleSubmit = (e) => {
     e.preventDefault()
     const form = e.target
+    console.log(form)
     fetch('/', {
       method: 'POST',
       headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
@@ -66,14 +67,18 @@ function  EmailLogic () {
           <Col>
               <h2>Let's Connect!</h2>
               <form 
-              method="Post"
+              method="post"
               action="/thanks"
               data-netlify="true"
               data-netlify-honeypot="bot-field"
               name="contact"
               onSubmit={handleSubmit}>
-              <input type="hidden" name="bot-field" />
               <input type="hidden" name="form-name" value="contact" />
+              <p hidden>
+              <label>
+                Don’t fill this out: <input name="bot-field" onChange={handleChange} />
+              </label>
+               </p>
       
                   <label htmlFor="name">Your Name</label>
                   <TextInput type='text' id='contact-name' maxLength='50' name='name' placeholder='Jane Doe' onChange={handleChange} />    
