@@ -150,6 +150,7 @@ const Header = ({ location, onChangeTheme, theme, }) => {
   )
 }
 
+
 /*const locationCheck = (location) => {
   console.log(location.pathname)  
   if (location.pathname !== '/'){

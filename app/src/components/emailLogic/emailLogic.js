@@ -65,19 +65,15 @@ function  EmailLogic () {
       <Row>
           <Col>
               <h2>Let's Connect!</h2>
-              <form name="DevContact"
+              <form 
               method="Post"
-              action="/thanks/"
+              action="/thanks"
               data-netlify="true"
               data-netlify-honeypot="bot-field"
+              name="contact"
               onSubmit={handleSubmit}>
-              {/* The `form-name` hidden field is required to support form submissions without JavaScript */}
-              <input type="hidden" name="form-name" value="contact" aria-label="hidden"/>
-              <p hidden>
-              <label>
-                  Don’t fill this out: <input name="bot-field" onChange={handleChange} aria-label="hidden"/>
-              </label>
-              </p>
+              <input type="hidden" name="bot-field" />
+              <input type="hidden" name="form-name" value="contact" />
       
                   <label htmlFor="name">Your Name</label>
                   <TextInput type='text' id='contact-name' maxLength='50' name='name' placeholder='Jane Doe' onChange={handleChange} />    
