@@ -6,16 +6,8 @@ module.exports = {
   githubUsername: 'lmd808',
   authorAvatar: '/me.png',
   authorDescription: `Full Stack Developer, and I'm passionate about what I do. I've been writing code since I was 14 years old. Now it is both a hobby and career. More than anything, I love creating work that makes people smile.
-   <br>I currently work as a Lead Full Stack Web Applications developer and mainly work with <strong>Javascript, NodeJS, SQL, MongoDB, and  React.</strong>`,
+   <br>I currently work as a Lead Full Stack Web Applications developer and mainly work with <strong>Javascript, NodeJS, SQL, AWS, and  React.</strong>`,
   skills: [
-    {
-      name: 'HTML',
-      level: 90,
-    },
-    {
-      name: 'CSS',
-      level: 55,
-    },
     {
       name: 'Javascript',
       level: 80,
@@ -34,7 +26,7 @@ module.exports = {
     },
     {
       name: 'SQL',
-      level: 55,
+      level: 65,
     },
     {
       name: 'MongoDB',
@@ -42,26 +34,49 @@ module.exports = {
     },
     {
       name: 'PHP',
-      level: 40,
+      level: 80,
+    },
+    {
+      name: 'Shopify',
+      level: 70,
     },
     {
       name: 'WP',
-      level: 50,
+      level: 65,
+    },
+    {
+      name: 'HTML',
+      level: 90,
+    },
+    {
+      name: 'CSS',
+      level: 55,
     },
     /* more skills here */
   ],
   jobs: [
     /* more jobs here */
     {
+      company: 'Jean Dousset, LLC',
+      begin: {
+        month: 'August 22',
+        year: '2022',
+      },
+      duration: '1yr 1mos',
+      occupation: 'Lead Full Stack Engineer',
+      description:
+        'I am responsible for implementing and maintaining company wide digital architecture and development standards to ensure stability, quality UX/UI experiences, and limited downtime. I haven not been here long, but I\'ve definitely made a massive impact on my organization. I\'ve helped reinvigorate the flow of revenue by supporting and often leading the overhaul of the entire existing company architecture including: moving from Woocommerce to Shopify, developing a custom theme, porting important automated processes to Mulesoft, stabilizing an extremely critical API, cleaning up unnecessary technology expenditures, and more. My day to day is pretty intense, but I constantly look back on my accomplishments here and feel hungry to accomplish even more!',
+    },
+    {
       company: 'American Addiction Centers',
       begin: {
         month: 'July',
         year: '2021',
       },
-      duration: null,
+      duration: '1yr 1mos',
       occupation: 'UI Engineer',
       description:
-        'I build and deploy lead driving features that save lives. I work tirelessly to improve my product and am never afraid to to step into the unknown. My communication skills as well as my deep understanding of Next.js and Node.js, allows me to output quality work quicky.',
+        'I built and deployed lead driving features that save lives. I worked tirelessly to improve my product and was never afraid to to step into the unknown. My communication skills as well as my deep understanding of Next.js and Node.js, allows me to output quality work quicky.',
     },
     {
       company: 'Phantom Digital',
