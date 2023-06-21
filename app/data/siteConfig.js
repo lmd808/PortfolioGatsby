@@ -143,7 +143,7 @@ module.exports = {
   social: {
     linkedin: 'https://www.linkedin.com/in/laura-ditommaso/',
     github: 'https://github.com/lmd808',
-    email: 'laura@lauraditommaso.dev',
+    email: 'lditom808@gmail.com',
   },
   siteUrl: 'https://lauraditommaso.dev',
   pathPrefix: '/app', // Note: it must *not* have a trailing slash.
