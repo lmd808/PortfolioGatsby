@@ -65,7 +65,7 @@ module.exports = {
       duration: '1yr 1mos',
       occupation: 'Lead Full Stack Engineer',
       description:
-        'I am responsible for implementing and maintaining company wide digital architecture and development standards to ensure stability, quality UX/UI experiences, and limited downtime. I haven not been here long, but I\'ve definitely made a massive impact on my organization. I\'ve helped reinvigorate the flow of revenue by supporting and often leading the overhaul of the entire existing company architecture including: moving from Woocommerce to Shopify, developing a custom theme, porting important automated processes to Mulesoft, stabilizing an extremely critical API, cleaning up unnecessary technology expenditures, and more. My day to day is pretty intense, but I constantly look back on my accomplishments here and feel hungry to accomplish even more!',
+        'As a key contributor to our organization, I oversee digital architecture and development standards, ensuring stability and exceptional UX/UI. Despite my short tenure, I\'ve led transformative initiatives, from migrating to Shopify, crafting custom themes, and optimizing automated processes with Mulesoft. My impact includes stabilizing critical APIs, cutting unnecessary tech costs, and revitalizing revenue streams. In the intense day-to-day, I find satisfaction in reflecting on accomplishments, fueling my drive for more impactful contributions.',
     },
     {
       company: 'American Addiction Centers',
@@ -76,7 +76,7 @@ module.exports = {
       duration: '1yr 1mos',
       occupation: 'UI Engineer',
       description:
-        'I built and deployed lead driving features that save lives. I worked tirelessly to improve my product and was never afraid to to step into the unknown. My communication skills as well as my deep understanding of Next.js and Node.js, allows me to output quality work quicky.',
+        'I am a results-driven innovator who built and deployed life-saving lead-driving features, showcasing a relentless commitment to improving products and fearlessly stepping into uncharted territories during my tenure with the AAC team. With a profound understanding of Next.js and Node.js, paired with excellent communication skills, I excel in delivering high-quality work efficiently. My track record is a testament to my dedication to impactful solutions and a willingness to embrace challenges head-on, ensuring not just innovation, but tangible and meaningful results',
     },
     {
       company: 'Phantom Digital',
@@ -87,7 +87,7 @@ module.exports = {
       duration: '1yr 1mos',
       occupation: 'Lead Web Applications Developer',
       description:
-        "I lead a strong team of developers. I was responsible for the development and execution of client's sites. I stressed communication and innovation. Always making sure the client is content.",
+        "As a seasoned leader, I guided a dynamic team of developers, overseeing the end-to-end development and execution of client sites. My emphasis on clear communication and innovative solutions ensured the satisfaction of our clients. I am dedicated to not only meeting but exceeding client expectations, fostering a collaborative and innovative environment within the team for optimal project outcomes.",
     },
     {
       company: 'MS&S',
